@@ -1,4 +1,2 @@
-# **HELLO**
-## World
+Hello World!
 
-## Keep Calm and Keep Coding
