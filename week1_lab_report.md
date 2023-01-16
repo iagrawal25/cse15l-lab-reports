@@ -26,8 +26,8 @@
 
 ## TRYING SOME COMMANDS
 * I created a directory “ishika” and “cse15l” using _mkdir_
-* Then I navigate into the “ishika” directory using _cd_
-* Then I create another directory “helloworld” inside “ishika”
-* I display all directories using _ls_
+* Then I navigated into the “ishika” directory using _cd_
+* Then I created another directory “helloworld” inside “ishika”
+* I displayed all directories using _ls_
 
 ![Image](commands.png)
