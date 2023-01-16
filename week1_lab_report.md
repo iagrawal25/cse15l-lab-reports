@@ -14,6 +14,20 @@
 
 ![Image](password.png)
 
-* Now open a terminal on VS Code and type in the following command:
+* Now open a terminal on VS Code and type in the following command (Replace XXX with your account username for CSE15L):
 > ssh XXX@ieng6.ucsd.edu
-* * Replace XXX with your account username for CSE15L.
+
+* Next, when prompted, type “yes” into the terminal.
+* Now, enter your password. Don’t worry if nothing appears on the screen while you are typing your password - that’s how it works in the terminal!
+
+* This is what the setup would look like:
+
+![Image](login.png)
+
+## TRYING SOME COMMANDS
+* I created a directory “ishika” and “cse15l” using _mkdir_
+* Then I navigate into the “ishika” directory using _cd_
+* Then I create another directory “helloworld” inside “ishika”
+* I display all directories using _ls_
+
+![Image](commands.png)
