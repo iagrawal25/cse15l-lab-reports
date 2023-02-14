@@ -128,4 +128,45 @@ Receiving objects: 100% (237/237), 3.25 MiB | 5.58 MiB/s, done.
 
 ## Command 4
 
+- Now, we will use _find_ to search for files of a particular size.
+> sudo find ./written_2 -size +20k -size -22k
+- This searches for files that are between 20KB and 22KB.
+- Imp: Sudo is used to grant permission.
+
+- Output
+
+```
+./written_2/travel_guides/berlitz1/WhatToLakeDistrict.txt
+./written_2/travel_guides/berlitz1/WhatToDublin.txt
+./written_2/travel_guides/berlitz1/WhatToIsrael.txt
+./written_2/travel_guides/berlitz1/WhatToEdinburgh.txt
+./written_2/travel_guides/berlitz1/HistoryEdinburgh.txt
+./written_2/travel_guides/berlitz1/WhatToItaly.txt
+./written_2/travel_guides/berlitz1/WhatToEgypt.txt
+./written_2/travel_guides/berlitz2/Berlin-History.txt
+./written_2/travel_guides/berlitz2/Athens-History.txt
+./written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt
+./written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt
+./written_2/travel_guides/berlitz2/NewOrleans-History.txt
+./written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
+```
+
+- Instead of a range, files of a particular size can also be found.
+> sudo find ./written_2 -size +100k
+- This searches for files of 100KB.
+
+- Output
+
+```
+./written_2/non-fiction/OUP/Berk/ch2.txt
+./written_2/non-fiction/OUP/Berk/CH4.txt
+./written_2/travel_guides/berlitz1/WhereToIndia.txt
+./written_2/travel_guides/berlitz1/WhereToItaly.txt
+./written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+./written_2/travel_guides/berlitz1/WhereToJapan.txt
+./written_2/travel_guides/berlitz1/WhereToFrance.txt
+./written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+./written_2/travel_guides/berlitz2/China-WhereToGo.txt
+```
 
