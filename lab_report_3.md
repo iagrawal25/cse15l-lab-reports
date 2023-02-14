@@ -27,6 +27,7 @@ find ./written_2 -name berlitz2
 - This searches for the _berlitz2_ directory in the _written_2_ directory and returns its path.
 
 - Output
+
 ```
 ./written_2/travel_guides/berlitz2
 ```
@@ -38,6 +39,7 @@ find ./written_2 -name  ch2.txt
 - This searches for the _ch2.txt_ file in the _written_2_ directory and returns each file's path.
 
 - Output
+
 ```
 ./written_2/non-fiction/OUP/Berk/ch2.txt
 ./written_2/non-fiction/OUP/Abernathy/ch2.txt
@@ -54,6 +56,7 @@ find ./written_2 -name *India.txt
 - _./written_2_ makes sure to search for all directories and files inside written_2 and _*_ acts as a wildcard. We search for all files that end with India.txt
 
 - Output
+
 ```
 ./written_2/travel_guides/berlitz1/HistoryIndia.txt
 ./written_2/travel_guides/berlitz1/WhereToIndia.txt
@@ -68,6 +71,7 @@ find ./written_2 -name *History.txt
 - This searches for all files that end with History.txt.
 
 - Output
+
 ```
 ./written_2/travel_guides/berlitz2/Portugal-History.txt
 ./written_2/travel_guides/berlitz2/Costa-History.txt
