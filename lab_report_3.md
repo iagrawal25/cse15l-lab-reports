@@ -3,7 +3,9 @@
 - Today we will be testing out the _find_ command.
 - First, we will clone the repository https://github.com/ucsd-cse15l-w23/skill-demo1-data to work with different files.
 
-> git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
+```
+git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
+```
 
 ```
 Cloning into 'skill-demo1-data'...
@@ -19,7 +21,9 @@ Receiving objects: 100% (237/237), 3.25 MiB | 5.58 MiB/s, done.
 ## Command 1
 
 We will use _find_ to search for particular directories or files.
-> find ./written_2 -name berlitz2
+```
+find ./written_2 -name berlitz2
+```
 - This searches for the _berlitz2_ directory in the _written_2_ directory and returns its path.
 
 - Output
@@ -28,7 +32,9 @@ We will use _find_ to search for particular directories or files.
 ```
 
 Another example of the same thing:
-> find ./written_2 -name  ch2.txt
+```
+find ./written_2 -name  ch2.txt
+```
 - This searches for the _ch2.txt_ file in the _written_2_ directory and returns each file's path.
 
 - Output
@@ -42,7 +48,9 @@ Another example of the same thing:
 ## Command 2
 
 _find_ can be used to find files of a particular extension that end with a particular name. To do this, we write:
-> find ./written_2 -name *India.txt
+```
+find ./written_2 -name *India.txt
+```
 - _./written_2_ makes sure to search for all directories and files inside written_2 and _*_ acts as a wildcard. We search for all files that end with India.txt
 
 - Output
@@ -54,7 +62,9 @@ _find_ can be used to find files of a particular extension that end with a parti
 ```
 
 Another example of the same thing:
-> find ./written_2 -name *History.txt
+```
+find ./written_2 -name *History.txt
+```
 - This searches for all files that end with History.txt.
 
 - Output
@@ -84,7 +94,9 @@ Another example of the same thing:
 ## Command 3
 
 Now, we will use _find_ to search for files in a directory. Unlike _ls_ it allows you to filter out files based on its type.
-> find ~/skill-demo1-data -type d
+```
+find ~/skill-demo1-data -type d
+```
 - This searches for files of type 'd' which means directory.
 
 - Output
@@ -122,7 +134,9 @@ Now, we will use _find_ to search for files in a directory. Unlike _ls_ it allow
 ```
 
 Now, we will try looking for another file type.
-> find ~/skill-demo1-data -type b
+```
+find ~/skill-demo1-data -type b
+```
 - This searches for files of type 'b' which means block device file.
 - However, there is no output since no such file type exists in out directory.
 
@@ -130,7 +144,9 @@ Now, we will try looking for another file type.
 ## Command 4
 
 Now, we will use _find_ to search for files of a particular size.
-> sudo find ./written_2 -size +20k -size -22k
+```
+sudo find ./written_2 -size +20k -size -22k
+```
 - This searches for files that are between 20KB and 22KB.
 - Imp: Sudo is used to grant permission.
 
@@ -153,7 +169,9 @@ Now, we will use _find_ to search for files of a particular size.
 ```
 
 Instead of a range, files of a particular size can also be found.
-> sudo find ./written_2 -size +100k
+```
+sudo find ./written_2 -size +100k
+```
 - This searches for files of 100KB.
 
 - Output
