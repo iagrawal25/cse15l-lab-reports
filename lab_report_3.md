@@ -1,7 +1,7 @@
 # Lab Report 3: Testing Commands
 ## Setting Up
 - Today we will be testing out the _find_ command.
-- First, we will clone the repository [click here] (https://github.com/ucsd-cse15l-w23/skill-demo1-data)to work with different files.
+- First, we will clone the repository [(click here)](https://github.com/ucsd-cse15l-w23/skill-demo1-data) to work with different files.
 
 ```
 git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
@@ -20,7 +20,7 @@ Receiving objects: 100% (237/237), 3.25 MiB | 5.58 MiB/s, done.
 
 ## Command 1
 
-We will use _find_ to search for particular directories or files. [(citation link)] (https://www.redhat.com/sysadmin/linux-find-command)
+We will use _find_ to search for particular directories or files. [(citation link)](https://www.redhat.com/sysadmin/linux-find-command)
 ```
 find ./written_2 -name berlitz2
 ```
@@ -49,7 +49,7 @@ find ./written_2 -name  ch2.txt
 
 ## Command 2
 
-_find_ can be used to find files of a particular extension that end with a particular name [(citation link)] (https://www.redhat.com/sysadmin/linux-find-command). To do this, we write:
+_find_ can be used to find files of a particular extension that end with a particular name [(citation link)](https://www.redhat.com/sysadmin/linux-find-command). To do this, we write:
 ```
 find ./written_2 -name *India.txt
 ```
@@ -97,7 +97,7 @@ find ./written_2 -name *History.txt
 
 ## Command 3
 
-Now, we will use _find_ to search for files in a directory [(citation link)] (https://www.geeksforgeeks.org/find-command-in-linux-with-examples/). Unlike _ls_ it allows you to filter out files based on its type.
+Now, we will use _find_ to search for files in a directory [(citation link)](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/). Unlike _ls_ it allows you to filter out files based on its type.
 ```
 find ~/skill-demo1-data -type d
 ```
