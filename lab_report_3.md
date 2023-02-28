@@ -172,7 +172,7 @@ sudo find ./written_2 -size +20k -size -22k
 ./written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 ```
 
-Instead of a range, files of a particular size can also be found.
+Instead of a range, files of a particular size can also be found
 ```
 sudo find ./written_2 -size +100k
 ```
