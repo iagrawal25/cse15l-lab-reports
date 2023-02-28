@@ -192,6 +192,3 @@ sudo find ./written_2 -size +100k
 ./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ./written_2/travel_guides/berlitz2/China-WhereToGo.txt
 ```
-
-## Citation
-- 
