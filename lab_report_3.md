@@ -1,7 +1,7 @@
 # Lab Report 3: Testing Commands
 ## Setting Up
 - Today we will be testing out the _find_ command.
-- First, we will clone the repository [(click here)] (https://github.com/ucsd-cse15l-w23/skill-demo1-data)to work with different files.
+- First, we will clone the repository [click here] (https://github.com/ucsd-cse15l-w23/skill-demo1-data)to work with different files.
 
 ```
 git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data
